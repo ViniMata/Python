@@ -18,6 +18,7 @@ def hub_jogo(quantidade_de_simbolos, palavra_chave):
     erros = 0
     palavra = quantidade_de_simbolos
     while palavra != palavra_chave and erros < 5:
+        os.system("cls")
         mostrar_o_nome_do_jogo()
         print(f"Palavra: {palavra}")
         palpite_letra = input("Digite a letra que deseja palpitar: ")
